@@ -393,7 +393,14 @@ function App() {
           </button>
           <h1 className="text-3xl font-bold text-gray-800 mb-2">Карточки</h1>
           <p className="text-gray-600">
-            {selectedCategory ? `Категория: ${selectedCategory}` : 'Все категории'} • 
+            {selectedCategory ? `Категория: ${
+              selectedCategory === 'family' ? 'семья' :
+              selectedCategory === 'food' ? 'еда' :
+              selectedCategory === 'travel' ? 'путешествия' :
+              selectedCategory === 'work' ? 'работа' :
+              selectedCategory === 'basic' ? 'базовые слова' :
+              selectedCategory
+            }` : 'Все категории'} • 
             Карточка {currentWordIndex + 1} из {words.length}
           </p>
         </div>
