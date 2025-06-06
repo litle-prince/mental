@@ -151,8 +151,8 @@ const ProgressStats = ({ stats }) => {
       
       <div className="mt-6">
         <div className="flex justify-between text-sm text-gray-600 mb-2">
-          <span>Progress</span>
-          <span>{stats.mastered_words}/{stats.total_words_studied} mastered</span>
+          <span>Прогресс</span>
+          <span>{stats.mastered_words}/{stats.total_words_studied} освоено</span>
         </div>
         <div className="w-full bg-gray-200 rounded-full h-3">
           <div 
