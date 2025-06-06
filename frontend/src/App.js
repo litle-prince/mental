@@ -71,7 +71,7 @@ const Quiz = ({ question, onAnswer, currentQuestion, totalQuestions }) => {
       <div className="mb-6">
         <div className="flex justify-between items-center mb-4">
           <h3 className="text-lg font-semibold text-gray-600">
-            Question {currentQuestion + 1} of {totalQuestions}
+            Вопрос {currentQuestion + 1} из {totalQuestions}
           </h3>
           <div className="w-32 bg-gray-200 rounded-full h-2">
             <div 
