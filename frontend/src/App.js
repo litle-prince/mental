@@ -39,7 +39,7 @@ const Flashcard = ({ word, onKnow, onDontKnow, showAnswer, onFlip }) => {
               onClick={(e) => { e.stopPropagation(); onDontKnow(); }}
               className="bg-red-600 hover:bg-red-700 px-6 py-2 rounded-lg font-semibold transition-colors"
             >
-              ✗ Don't Know
+              ✗ Не знаю
             </button>
           </div>
         </div>
