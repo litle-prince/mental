@@ -432,16 +432,16 @@ function App() {
           />
         ) : quiz && currentQuestionIndex >= quiz.questions.length ? (
           <div className="max-w-md mx-auto bg-white rounded-xl shadow-lg p-8 text-center">
-            <h2 className="text-2xl font-bold text-gray-800 mb-4">Quiz Complete!</h2>
+            <h2 className="text-2xl font-bold text-gray-800 mb-4">Тест завершён!</h2>
             <div className="text-4xl font-bold text-green-600 mb-2">
               {quizScore.correct}/{quizScore.total}
             </div>
             <p className="text-gray-600 mb-4">
-              {quizScore.correct === quizScore.total ? '🎉 Perfect score!' : 
-               quizScore.correct >= quizScore.total * 0.8 ? '👏 Great job!' :
-               '💪 Keep practicing!'}
+              {quizScore.correct === quizScore.total ? '🎉 Отличный результат!' : 
+               quizScore.correct >= quizScore.total * 0.8 ? '👏 Отлично!' :
+               '💪 Продолжайте практиковаться!'}
             </p>
-            <p className="text-sm text-gray-500">Returning to menu...</p>
+            <p className="text-sm text-gray-500">Возвращение в меню...</p>
           </div>
         ) : null}
       </div>
