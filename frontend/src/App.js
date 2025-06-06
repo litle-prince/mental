@@ -130,7 +130,7 @@ const ProgressStats = ({ stats }) => {
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         <div className="text-center">
           <div className="text-3xl font-bold text-blue-600">{stats.total_words_studied}</div>
-          <div className="text-sm text-gray-600">Words Studied</div>
+          <div className="text-sm text-gray-600">Слов изучено</div>
         </div>
         
         <div className="text-center">
