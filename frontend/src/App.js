@@ -140,7 +140,7 @@ const ProgressStats = ({ stats }) => {
         
         <div className="text-center">
           <div className="text-3xl font-bold text-yellow-600">{stats.familiar_words}</div>
-          <div className="text-sm text-gray-600">Familiar</div>
+          <div className="text-sm text-gray-600">Знакомо</div>
         </div>
         
         <div className="text-center">
