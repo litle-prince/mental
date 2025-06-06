@@ -371,7 +371,7 @@ function App() {
             onClick={() => setCurrentMode('menu')}
             className="mb-4 bg-gray-600 hover:bg-gray-700 text-white px-4 py-2 rounded-lg"
           >
-            ← Back to Menu
+            ← Назад в меню
           </button>
           <h1 className="text-3xl font-bold text-gray-800 mb-2">Flashcards</h1>
           <p className="text-gray-600">
