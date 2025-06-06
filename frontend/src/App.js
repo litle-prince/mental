@@ -415,10 +415,10 @@ function App() {
           >
             ← Назад в меню
           </button>
-          <h1 className="text-3xl font-bold text-gray-800 mb-2">Quiz</h1>
+          <h1 className="text-3xl font-bold text-gray-800 mb-2">Тест</h1>
           <p className="text-gray-600">
-            {selectedCategory ? `Category: ${selectedCategory}` : 'All Categories'} • 
-            Score: {quizScore.correct}/{quizScore.total}
+            {selectedCategory ? `Категория: ${selectedCategory}` : 'Все категории'} • 
+            Счёт: {quizScore.correct}/{quizScore.total}
           </p>
         </div>
 
