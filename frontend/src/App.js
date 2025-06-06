@@ -145,7 +145,7 @@ const ProgressStats = ({ stats }) => {
         
         <div className="text-center">
           <div className="text-3xl font-bold text-purple-600">{stats.accuracy}%</div>
-          <div className="text-sm text-gray-600">Accuracy</div>
+          <div className="text-sm text-gray-600">Точность</div>
         </div>
       </div>
       
