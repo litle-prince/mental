@@ -373,10 +373,10 @@ function App() {
           >
             ← Назад в меню
           </button>
-          <h1 className="text-3xl font-bold text-gray-800 mb-2">Flashcards</h1>
+          <h1 className="text-3xl font-bold text-gray-800 mb-2">Карточки</h1>
           <p className="text-gray-600">
-            {selectedCategory ? `Category: ${selectedCategory}` : 'All Categories'} • 
-            Card {currentWordIndex + 1} of {words.length}
+            {selectedCategory ? `Категория: ${selectedCategory}` : 'Все категории'} • 
+            Карточка {currentWordIndex + 1} из {words.length}
           </p>
         </div>
 
