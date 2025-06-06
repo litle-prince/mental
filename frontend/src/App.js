@@ -309,16 +309,25 @@ function App() {
               >
                 Все категории
               </button>
-              {categories.map(category => (
-                <button
-                  key={category}
-                  onClick={() => startFlashcards(category)}
-                  disabled={loading}
-                  className="w-full bg-gray-600 hover:bg-gray-700 text-white font-semibold py-2 rounded-lg transition-colors disabled:opacity-50 capitalize"
-                >
-                  {category}
-                </button>
-              ))}
+              {categories.map(category => {
+                const categoryNames = {
+                  'family': 'семья',
+                  'food': 'еда', 
+                  'travel': 'путешествия',
+                  'work': 'работа',
+                  'basic': 'базовые слова'
+                };
+                return (
+                  <button
+                    key={category}
+                    onClick={() => startFlashcards(category)}
+                    disabled={loading}
+                    className="w-full bg-gray-600 hover:bg-gray-700 text-white font-semibold py-2 rounded-lg transition-colors disabled:opacity-50 capitalize"
+                  >
+                    {categoryNames[category] || category}
+                  </button>
+                );
+              })}
             </div>
           </div>
 
