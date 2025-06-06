@@ -283,9 +283,9 @@ function App() {
         {/* Header */}
         <div className="text-center mb-8">
           <h1 className="text-5xl font-bold text-gray-800 mb-4">
-            🇬🇧 English Learning App
+            🇬🇧 Изучение английского языка
           </h1>
-          <p className="text-xl text-gray-600">Master English vocabulary with flashcards and quizzes</p>
+          <p className="text-xl text-gray-600">Изучайте английскую лексику с помощью карточек и тестов</p>
         </div>
 
         {/* Progress Stats */}
