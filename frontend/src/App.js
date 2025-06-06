@@ -19,7 +19,7 @@ const Flashcard = ({ word, onKnow, onDontKnow, showAnswer, onFlip }) => {
           {word.phonetic && (
             <p className="text-lg opacity-80 mb-4">{word.phonetic}</p>
           )}
-          <p className="text-sm opacity-70 text-center">Click to reveal translation</p>
+          <p className="text-sm opacity-70 text-center">Нажмите, чтобы увидеть перевод</p>
         </div>
         
         {/* Back side - Russian translation */}
