@@ -135,7 +135,7 @@ const ProgressStats = ({ stats }) => {
         
         <div className="text-center">
           <div className="text-3xl font-bold text-green-600">{stats.mastered_words}</div>
-          <div className="text-sm text-gray-600">Mastered</div>
+          <div className="text-sm text-gray-600">Освоено</div>
         </div>
         
         <div className="text-center">
