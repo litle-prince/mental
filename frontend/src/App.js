@@ -125,7 +125,7 @@ const ProgressStats = ({ stats }) => {
 
   return (
     <div className="bg-white rounded-xl shadow-lg p-6 mb-8">
-      <h3 className="text-xl font-bold text-gray-800 mb-6">Your Progress</h3>
+      <h3 className="text-xl font-bold text-gray-800 mb-6">Ваш прогресс</h3>
       
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         <div className="text-center">
